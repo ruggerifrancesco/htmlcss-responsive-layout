@@ -87,10 +87,20 @@ img {
 .navigation-bar {
     background-color: var(--color-cyan-blue);
 }
+.nav-wrapper {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;
+}
 
 .nav-list-container {
     display: none;
 }
+    .hamburger-list > i {
+        color: var(--color-white);
+        font-size: 32px;
+        cursor: pointer;
+    }
     /* Media Query Section */
 
 /* Hero Section */
