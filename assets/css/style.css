@@ -26,7 +26,7 @@
 
 
     /* Border Radius Cards */
-    --card-border-rd: 2rem;
+    --card-border-rd: 1.5rem;
     --comments-border-rd: 3.5rem;
 
 }
@@ -85,10 +85,10 @@ img {
     @media screen and (min-width: 576px) {
         .wrapper {
             max-width: 100%;
-            width: 90%;
+            width: 80%;
         }
     }
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 992px) {
         .wrapper {
             max-width: 100%;
             width: 90%;
@@ -142,37 +142,42 @@ img {
 .hero-card-container {
     flex-direction: column;
     width: 100%;
+    gap: 2rem;
 }
 
-.hero-card-primary {
-    justify-content: center;
-    align-items: center;
-    height: 600px;
-    width: 100%;
-    border-radius: var(--card-border-rd);
+.hero-card-row {
+    flex-direction: column;
+    gap: 2rem;
 }
-
-.hero-card {
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    width: 100%;
-    border-radius: var(--card-border-rd);
-    margin-top: 2rem;
-}
+    .hero-card-primary {
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+        width: 100%;
+        border-radius: var(--card-border-rd);
+    }
+    .hero-card {
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 100%;
+        border-radius: var(--card-border-rd);
+    }
     /* Media Query Section */
     @media screen and (min-width: 576px) {
         .hero-card-container {
+            gap: 1.5rem;
+        }
+        .hero-card-row {
             flex-direction: row;
-            flex-wrap: wrap;
+            gap: 1.5rem;
         }
         .hero-card-primary {
-            width: calc((100% / 3 * 2) - 4rem);
-            margin: 0 2rem 0;
+            width: calc(100% / 3 * 2);
         }
         .hero-card {
-            width: calc(100% / 3 - 4rem);
-            margin: 0 2rem 0;
+            width: calc(100% / 3);
+            height: 500px;
         }
     }
 /* ---- Main Content ---- */
@@ -233,7 +238,7 @@ img {
             height: 300px;
         }
     }
-    @media screen and (min-width: 800px) {
+    @media screen and (min-width: 992px) {
         .part-card {
             height: 300px;
         }
@@ -265,6 +270,27 @@ img {
     border-radius: var(--card-border-rd);
     background-color: var(--color-white);
 }
+    /* Media Query */
+    @media screen and (min-width: 576px) {
+        .benef-wrapper {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .benef-card {
+            height: 500px;
+            width: calc(100% / 2 - 1rem);
+        }
+    }
+    @media screen and (min-width: 992px) {
+        .benef-wrapper {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .benef-card {
+            height: 450px;
+            width: calc(100% / 2 - 1rem);
+        }
+    }
 
 /* About Us Section */
 .about-wrapper {
@@ -273,7 +299,7 @@ img {
 
 .about-text-container {
     flex-direction: column;
-    gap: 2rem;
+    gap: 1.5rem;
 }
     .about-title {
         justify-content: center;
