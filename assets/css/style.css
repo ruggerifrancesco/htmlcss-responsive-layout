@@ -54,7 +54,7 @@ h3 {
     font-size: 16px;
 }
 
-span, li, button, a {
+span, li, a {
     display: block;
     text-decoration: none;
     outline: none;
@@ -78,9 +78,12 @@ img {
     .wrapper {
         margin: 0 auto;
         max-width: 480px;
+        width: 85%;
     }
 
-/* Header Content */
+/* ---- Header Content ---- */
+
+/* Navigation Bar */
 .navigation-bar {
     background-color: var(--color-cyan-blue);
 }
@@ -89,27 +92,10 @@ img {
     display: none;
 }
     /* Media Query Section */
-    @media screen and (min-width: 480px) {
-
-    }   
-    @media screen and (min-width: 800px) {
-
-        .nav-list-container {
-            display: flex;
-        }
-        .hamburger-list {
-            display: none;
-        }
-
-    }
-
-    @media screen and (min-width: 1200px) {
-
-    }
 
 /* Hero Section */
 
 
-/* Main Content */
+/* ---- Main Content ---- */
 
-/* Footer Section */
+/* ---- Footer Content ---- */
