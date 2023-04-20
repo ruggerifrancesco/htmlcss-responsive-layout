@@ -167,11 +167,11 @@ img {
             flex-wrap: wrap;
         }
         .hero-card-primary {
-            width: calc((100% / 3 * 2));
+            width: calc((100% / 3 * 2) - 8rem);
             margin: 0 2rem 0;
         }
         .hero-card {
-            width: calc(100% / 3 - 2rem);
+            width: calc(100% / 3 - 4rem);
             margin: 0 2rem 0;
         }
     }
@@ -221,7 +221,7 @@ img {
 .part-card {
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 600px;
     width: 100%;
     border-radius: var(--comments-border-rd);
     background-color: var(--color-lilla);
@@ -229,7 +229,9 @@ img {
 
     /* Media query */
     @media screen and (min-width: 800px) {
+        .part-card {
 
+        }
     }
 
 /* Benefits Cards Section */
