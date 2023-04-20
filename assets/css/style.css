@@ -180,4 +180,31 @@ img {
     border-radius: var(--comments-border-rd);
 }
 
+/* Benefits Cards Section */
+.benefits-section {
+    background-color: var(--color-lilla);
+}
+
+.benef-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+.benef-title {
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.benef-card {
+    justify-content: center;
+    align-items: center;
+    height: 550px;
+    width: 100%;
+    border-radius: var(--card-border-rd);
+    background-color: var(--color-white);
+}
+
 /* ---- Footer Content ---- */
