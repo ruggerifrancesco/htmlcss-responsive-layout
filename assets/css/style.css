@@ -104,7 +104,30 @@ img {
     /* Media Query Section */
 
 /* Hero Section */
+.hero {
+    padding: 4rem 0;
+}
+.hero-card-container {
+    flex-direction: column;
+    width: 100%;
+    gap: 2rem;
+}
 
+.card-primary {
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    border-radius: var(--card-border-rd);
+}
+
+.card {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+    border-radius: var(--card-border-rd);
+}
 
 /* ---- Main Content ---- */
 
