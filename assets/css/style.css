@@ -105,7 +105,7 @@ img {
 
 /* Hero Section */
 .hero {
-    padding: 4rem 0;
+    padding: 4rem 0 6rem;
 }
 .hero-card-container {
     flex-direction: column;
@@ -130,5 +130,31 @@ img {
 }
 
 /* ---- Main Content ---- */
+
+/* App Development and Strategic Section */
+.development-section {
+    background-color: var(--color-lilla);
+}
+
+.dev-wrapper {
+    flex-direction: column;
+    padding: 3rem 0;
+    gap: 3rem;
+}
+
+.strategic-planning {
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+}
+
+.app-dev {
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    width: 100%;
+    border-radius: var(--comments-border-rd);
+}
 
 /* ---- Footer Content ---- */
