@@ -34,6 +34,8 @@
 /* --------------- */
 /* CSS Style Begin */
 /* --------------- */
+
+/* General Tags */
 html {
     font-size: 16px
 }
@@ -58,3 +60,9 @@ span, li, button, a {
     outline: none;
     list-style: none;
 }
+
+/* Header Content */
+
+/* Main Content */
+
+/* Footer Section */
