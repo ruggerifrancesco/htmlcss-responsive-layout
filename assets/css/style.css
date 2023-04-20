@@ -174,7 +174,7 @@ img {
         background-color: var(--color-lblue);
     }
     /* Media Query Section */
-    @media screen and (min-width: 576px) {
+    @media screen and (min-width: 676px) {
         .hero-card-container {
             gap: 1.5rem;
         }
@@ -188,6 +188,23 @@ img {
         .hero-card {
             width: calc(100% / 3);
             height: 500px;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .hero-card-container {
+            gap: 2rem;
+        }
+        .hero-card-row {
+            flex-direction: row;
+            gap: 2rem;
+        }
+        .hero-card-primary {
+            width: calc(100% / 3 * 2);
+            height: 600px;
+        }
+        .hero-card {
+            width: calc(100% / 3);
+            height: 600px;
             align-self: stretch;
         }
     }
