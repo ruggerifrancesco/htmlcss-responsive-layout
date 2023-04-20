@@ -77,10 +77,38 @@ img {
     /* Rule Applied for mobile first */
     .wrapper {
         margin: 0 auto;
-        max-width: 800px;
+        max-width: 480px;
     }
 
 /* Header Content */
+.navigation-bar {
+    background-color: var(--color-cyan-blue);
+}
+
+.nav-list-container {
+    display: none;
+}
+    /* Media Query Section */
+    @media screen and (min-width: 480px) {
+
+    }   
+    @media screen and (min-width: 800px) {
+
+        .nav-list-container {
+            display: flex;
+        }
+        .hamburger-list {
+            display: none;
+        }
+
+    }
+
+    @media screen and (min-width: 1200px) {
+
+    }
+
+/* Hero Section */
+
 
 /* Main Content */
 
