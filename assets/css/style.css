@@ -85,7 +85,7 @@ img {
     @media screen and (min-width: 576px) {
         .wrapper {
             max-width: 100%;
-            width: 80%;
+            width: 90%;
         }
     }
     @media screen and (min-width: 992px) {
@@ -94,10 +94,10 @@ img {
             width: 90%;
         }
     }
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: 1400px) {
         .wrapper {
             max-width: 100%;
-            width: 60%;
+            width: 70%;
         }
     }
 
@@ -126,6 +126,14 @@ img {
     cursor: pointer;
 }
     /* Media Query Section */
+    @media screen and (min-width: 992px) {
+        .nav-list-container {
+            display: flex;
+        }
+        .hamburger-list {
+            display: none;
+        }
+    }
     @media screen and (min-width: 1200px) {
         .nav-list-container {
             display: flex;
@@ -178,6 +186,7 @@ img {
         .hero-card {
             width: calc(100% / 3);
             height: 500px;
+            align-self: stretch;
         }
     }
 /* ---- Main Content ---- */
