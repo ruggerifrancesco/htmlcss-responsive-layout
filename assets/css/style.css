@@ -65,6 +65,21 @@ img {
     width: 100%;
 }
 
+    /* Display Values */
+    .flex {
+        display: flex;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+    /* Rule Applied for mobile first */
+    .wrapper {
+        margin: 0 auto;
+        max-width: 800px;
+    }
+
 /* Header Content */
 
 /* Main Content */
