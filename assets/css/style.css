@@ -38,7 +38,9 @@ html {
     font-size: 16px
 }
 
-body {}
+body {
+    font-family: 'Roboto', sans-serif;
+}
 
 h1 {
     font-size: 36px;
