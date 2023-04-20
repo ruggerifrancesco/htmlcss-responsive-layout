@@ -158,4 +158,24 @@ img {
     background-color: var(--color-white);
 }
 
+/* Partners Section */
+.part-wrapper {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.partner-text {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+.part-card {
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    width: 100%;
+    border-radius: var(--comments-border-rd);
+}
+
 /* ---- Footer Content ---- */
