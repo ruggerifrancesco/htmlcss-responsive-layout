@@ -142,7 +142,6 @@ img {
 .hero-card-container {
     flex-direction: column;
     width: 100%;
-    gap: 2rem;
 }
 
 .hero-card-primary {
@@ -159,6 +158,7 @@ img {
     height: 400px;
     width: 100%;
     border-radius: var(--card-border-rd);
+    margin-top: 2rem;
 }
     /* Media Query Section */
     @media screen and (min-width: 576px) {
@@ -167,10 +167,12 @@ img {
             flex-wrap: wrap;
         }
         .hero-card-primary {
-            width: calc((100% / 3 * 2))
+            width: calc((100% / 3 * 2));
+            margin: 0 2rem 0;
         }
         .hero-card {
             width: calc(100% / 3 - 2rem);
+            margin: 0 2rem 0;
         }
     }
 /* ---- Main Content ---- */
