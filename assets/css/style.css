@@ -183,7 +183,7 @@ img {
             gap: 1.5rem;
         }
         .hero-card-primary {
-            width: calc(100% / 3 * 2);
+            width: calc((100% / 3 * 2) + 1.5rem);
         }
         .hero-card {
             width: calc(100% / 3);
@@ -192,19 +192,19 @@ img {
     }
     @media screen and (min-width: 1200px) {
         .hero-card-container {
-            gap: 2rem;
+            gap: 3rem;
         }
         .hero-card-row {
             flex-direction: row;
-            gap: 2rem;
+            gap: 3rem;
         }
         .hero-card-primary {
-            width: calc((100% / 3 * 2) + 2rem);
-            height: 600px;
+            width: calc((100% / 3 * 2) + 3rem);
+            height: 500px;
         }
         .hero-card {
             width: calc(100% / 3);
-            height: 600px;
+            height: 500px;
         }
     }
 /* ---- Main Content ---- */
@@ -235,6 +235,29 @@ img {
     border-radius: var(--comments-border-rd);
     background-color: var(--color-white);
 }
+    /* Media Query Section */
+    @media screen and (min-width: 676px) {
+        .app-dev {
+            height: 800px;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .dev-wrapper {
+            align-items: flex-end;
+            flex-direction: row;
+            padding: 8rem 12rem 4rem;
+            gap: 2rem;
+            justify-content: space-evenly;
+        }
+        .strategic-planning {
+            width: 50%;
+            height: 1000px;
+        }
+        .app-dev {
+            width: 40%; 
+            height: 800px;
+        }
+    }
 
 /* Partners Section */
 .part-wrapper {
@@ -260,7 +283,7 @@ img {
 }
 
     /* Media query */
-    @media screen and (min-width: 576px) {
+    @media screen and (min-width: 676px) {
         .part-card {
             height: 300px;
         }
@@ -316,6 +339,16 @@ img {
         .benef-card {
             height: 450px;
             width: calc(100% / 2 - 1rem);
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .benef-wrapper {
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+        .benef-card {
+            height: 450px;
+            width: calc(100% / 3 - 2rem);
         }
     }
 
