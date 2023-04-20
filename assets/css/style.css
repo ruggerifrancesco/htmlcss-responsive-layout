@@ -113,7 +113,7 @@ img {
     gap: 2rem;
 }
 
-.card-primary {
+.hero-card-primary {
     justify-content: center;
     align-items: center;
     height: 600px;
@@ -121,7 +121,7 @@ img {
     border-radius: var(--card-border-rd);
 }
 
-.card {
+.hero-card {
     justify-content: center;
     align-items: center;
     height: 400px;
