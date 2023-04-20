@@ -207,4 +207,45 @@ img {
     background-color: var(--color-white);
 }
 
+/* About Us Section */
+.about-wrapper {
+    padding: 4rem 0;
+}
+
+.about-text-container {
+    flex-direction: column;
+    gap: 2rem;
+}
+    .about-title {
+        justify-content: center;
+        align-items: center;
+        height: 100px;
+        width: 100%;
+    }
+    .about-paragraph {
+        justify-content: center;
+        align-items: center;
+        height: 620px;
+        width: 100%;
+    }
+    .about-paragraph-2 {
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+        width: 100%;
+    }
+
+.about-referral {
+    justify-content: center;
+    align-items: center;
+    height: 480px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+/* Getting Started Section  */
+.getting-started-section {
+    background-color: var(--color-lilla);
+}
+
 /* ---- Footer Content ---- */
