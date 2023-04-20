@@ -82,7 +82,7 @@ img {
     }
 
     /* Media Query Section */
-    @media screen and (min-width: 480px) {
+    @media screen and (min-width: 576px) {
         .wrapper {
             max-width: 100%;
         }
@@ -160,16 +160,16 @@ img {
     border-radius: var(--card-border-rd);
 }
     /* Media Query Section */
-    @media screen and (min-width: 780px) {
+    @media screen and (min-width: 576px) {
         .hero-card-container {
             flex-direction: row;
             flex-wrap: wrap;
         }
         .hero-card-primary {
-            width: 65%;
+            width: calc((100% / 3 * 2))
         }
         .hero-card {
-            width: calc(100% / 4);
+            width: calc(100% / 3 - 2rem);
         }
     }
 /* ---- Main Content ---- */
