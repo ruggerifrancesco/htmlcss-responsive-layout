@@ -162,6 +162,7 @@ img {
 .part-wrapper {
     flex-direction: column;
     gap: 2rem;
+    padding: 4rem 0;
 }
 
 .partner-text {
@@ -170,6 +171,7 @@ img {
     height: 400px;
     width: 100%;
 }
+
 .part-card {
     justify-content: center;
     align-items: center;
