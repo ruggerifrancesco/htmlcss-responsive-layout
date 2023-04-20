@@ -26,8 +26,8 @@
 
 
     /* Border Radius Cards */
-    --card-border-rd: 1rem;
-    --comments-border-rd: 2rem;
+    --card-border-rd: 2rem;
+    --comments-border-rd: 4rem;
 
 }
 
