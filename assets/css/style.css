@@ -248,4 +248,33 @@ img {
     background-color: var(--color-lilla);
 }
 
+.get-start-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem 0;
+}
+
+.get-start-text {
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    width: 100%;
+}
+
+.get-start-btn {
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+}
+
 /* ---- Footer Content ---- */
+
+/* Footer */
+.footer {
+    background-color: var(--footer-bottom-color);
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+}
