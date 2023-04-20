@@ -1,0 +1,9 @@
+/* CSS Reset Rule */
+*, *:before, *:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    /* See everything */
+    outline: 1px solid red;
+}
