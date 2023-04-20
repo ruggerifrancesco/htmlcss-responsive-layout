@@ -7,3 +7,27 @@
     /* See everything */
     outline: 1px solid red;
 }
+
+/* Root Section */
+:root {
+    /* General Color Scheme */
+    --color-grey: grey;
+    --color-white: white;
+    --color-black: black;
+
+    /* Color Scheme */
+    --color-lilla: #9792e4;
+    --color-lblue: #b5ddff;
+    --color-cyan-blue: #0084fd;
+
+    /* Precise Colors */
+    --free-sec-yellow: #fdc15f;
+    --footer-bottom-color: #333333;
+
+
+    /* Border Radius Cards */
+    --card-border-rd: 1rem;
+    --comments-border-rd: 2rem;
+
+}
+
