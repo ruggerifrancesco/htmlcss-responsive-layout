@@ -115,13 +115,24 @@ img {
 .nav-list-container {
     display: none;
 }
-    .hamburger-list > i {
-        color: var(--color-white);
-        font-size: 32px;
-        cursor: pointer;
+    .nav-list {
+        gap: 3rem;
     }
+
+.hamburger-list > i {
+    color: var(--color-white);
+    font-size: 32px;
+    cursor: pointer;
+}
     /* Media Query Section */
-    
+    @media screen and (min-width: 1200px) {
+        .nav-list-container {
+            display: flex;
+        }
+        .hamburger-list {
+            display: none;
+        }
+    }
     
 /* Hero Section */
 .hero {
@@ -148,7 +159,12 @@ img {
     width: 100%;
     border-radius: var(--card-border-rd);
 }
-
+    /* Media Query Section */
+    @media screen and (min-width: 780px) {
+        .hero-card-primary {
+            flex-wrap: wrap;
+        }
+    }
 /* ---- Main Content ---- */
 
 /* App Development and Strategic Section */
