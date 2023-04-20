@@ -81,6 +81,25 @@ img {
         width: 85%;
     }
 
+    /* Media Query Section */
+    @media screen and (min-width: 480px) {
+        .wrapper {
+            max-width: 100%;
+        }
+    }
+    @media screen and (min-width: 780px) {
+        .wrapper {
+            max-width: 100%;
+            width: 90%;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .wrapper {
+            max-width: 1200px;
+            width: 70%;
+        }
+    }
+
 /* ---- Header Content ---- */
 
 /* Navigation Bar */
@@ -102,7 +121,8 @@ img {
         cursor: pointer;
     }
     /* Media Query Section */
-
+    
+    
 /* Hero Section */
 .hero {
     padding: 4rem 0 6rem;
