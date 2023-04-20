@@ -85,9 +85,10 @@ img {
     @media screen and (min-width: 576px) {
         .wrapper {
             max-width: 100%;
+            width: 90%;
         }
     }
-    @media screen and (min-width: 780px) {
+    @media screen and (min-width: 800px) {
         .wrapper {
             max-width: 100%;
             width: 90%;
@@ -141,6 +142,7 @@ img {
 .hero-card-container {
     flex-direction: column;
     width: 100%;
+    gap: 2rem;
 }
 
 .hero-card-primary {
@@ -157,7 +159,6 @@ img {
     height: 400px;
     width: 100%;
     border-radius: var(--card-border-rd);
-    margin-top: 2rem;
 }
     /* Media Query Section */
     @media screen and (min-width: 576px) {
@@ -169,8 +170,7 @@ img {
             width: calc((100% / 3 * 2))
         }
         .hero-card {
-            width: calc((100% / 3 - 2rem));
-            margin-left: 2rem;
+            width: calc(100% / 3 - 2rem);
         }
     }
 /* ---- Main Content ---- */
@@ -222,7 +222,13 @@ img {
     height: 500px;
     width: 100%;
     border-radius: var(--comments-border-rd);
+    background-color: var(--color-lilla);
 }
+
+    /* Media query */
+    @media screen and (min-width: 800px) {
+
+    }
 
 /* Benefits Cards Section */
 .benefits-section {
