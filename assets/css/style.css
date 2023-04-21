@@ -94,9 +94,15 @@ img {
             width: 90%;
         }
     }
-    @media screen and (min-width: 1400px) {
+    @media screen and (min-width: 1200px) {
         .wrapper {
             max-width: 100%;
+            width: 70%;
+        }
+    }
+    @media screen and (min-width: 1500px) {
+        .wrapper {
+            max-width: 1500px;
             width: 70%;
         }
     }
@@ -192,14 +198,14 @@ img {
     }
     @media screen and (min-width: 1200px) {
         .hero-card-container {
-            gap: 3rem;
+            gap: 2rem;
         }
         .hero-card-row {
             flex-direction: row;
-            gap: 3rem;
+            gap: 2rem;
         }
         .hero-card-primary {
-            width: calc((100% / 3 * 2) + 3rem);
+            width: calc((100% / 3 * 2) + 2rem);
             height: 500px;
         }
         .hero-card {
@@ -251,11 +257,11 @@ img {
         }
         .strategic-planning {
             width: 50%;
-            height: 1000px;
+            height: 800px;
         }
         .app-dev {
             width: 40%; 
-            height: 800px;
+            height: 600px;
         }
     }
 
@@ -347,8 +353,8 @@ img {
             flex-wrap: wrap;
         }
         .benef-card {
-            height: 450px;
-            width: calc(100% / 3 - 2rem);
+            height: 500px;
+            width: calc(100% / 3 - 1.34rem);
         }
     }
 
