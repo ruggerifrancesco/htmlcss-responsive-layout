@@ -454,10 +454,14 @@ img {
         .double-quote::after {
             font-size: 2.5rem;
         }
+        .category-introduction {
+            font-size: 1.2rem;
+            line-height: 2.2rem;
+        }
     }
-    @media screen and (min-width: 992px) {
-        .part-card {
-            height: 300px;
+    @media screen and (min-width: 1200px) {
+        .part-content-container {
+            width: 75%;
         }
     }
 
