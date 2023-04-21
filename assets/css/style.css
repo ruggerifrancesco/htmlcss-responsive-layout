@@ -37,7 +37,8 @@
 
 /* General Tags */
 html {
-    font-size: 16px
+    font-size: 16px;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -370,7 +371,7 @@ img {
     .category-indicator {
         text-transform: uppercase;
     }
-    .category-title {
+    .part-category-title {
         margin-top: 2rem;
         color: var(--color-lilla);
     }
@@ -476,16 +477,12 @@ img {
     padding: 4rem 0;
 }
 
-.benef-title {
-    justify-content: center;
-    align-items: center;
-    height: 100px;
+.benef-category-title {
     width: 100%;
-    margin-bottom: 3rem;
+    text-align: center;
+    color: var(--color-white);
 }
 .benef-card {
-    justify-content: center;
-    align-items: center;
     height: 550px;
     width: 100%;
     border-radius: var(--card-border-rd);
