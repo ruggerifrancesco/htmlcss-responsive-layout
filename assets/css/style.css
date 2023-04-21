@@ -518,13 +518,12 @@ img {
 
     }
     /* Media Query */
-    @media screen and (min-width: 576px) {
+    @media screen and (min-width: 676px) {
         .benef-wrapper {
             flex-direction: row;
             flex-wrap: wrap;
         }
         .benef-card {
-            height: 500px;
             width: calc(100% / 2 - 1rem);
         }
     }
@@ -534,7 +533,6 @@ img {
             flex-wrap: wrap;
         }
         .benef-card {
-            height: 450px;
             width: calc(100% / 2 - 1rem);
         }
     }
@@ -544,8 +542,15 @@ img {
             flex-wrap: wrap;
         }
         .benef-card {
-            height: 500px;
             width: calc((100% / 3) - 1.34rem);
+        }
+        .benef-card-title {
+            font-size: 1.3rem;
+        }
+    }
+    @media screen and (min-width: 1370px) {
+        .benef-card-title {
+            font-size: 1.8rem;
         }
     }
 
