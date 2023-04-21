@@ -392,35 +392,61 @@ img {
         .partner-image-profile {
             background-image: url(../img/testimonial3.jpg);
         }
-    .partner-desc {
-        color: var(--color-white);
-        text-align: center;
-        margin-top: 2rem;
-        line-height: 2.5rem;
-        font-size: 1.5rem;
+
+    .part-content-container {
+        flex-direction: column;
+        align-items: center;
     }
-    .partner-name {
-        text-transform: uppercase;
-        color: var(--color-white);
-        font-weight: 700;
-        letter-spacing: 0.3rem;
-        margin-top: 2rem;
-    }
-    .double-quote::before {
-        content: open-quote;
-        font-size: 3rem;
-        vertical-align: bottom;
-    }
-    .double-quote::after {
-        content: close-quote;
-        font-size: 3rem;
-        vertical-align: bottom;
-    }
+        .partner-desc {
+            color: var(--color-white);
+            text-align: center;
+            margin-top: 2rem;
+            line-height: 2.5rem;
+            font-size: 1.5rem;
+        }
+        .partner-name {
+            text-transform: uppercase;
+            color: var(--color-white);
+            font-weight: 700;
+            letter-spacing: 0.3rem;
+            margin-top: 2rem;
+        }
+        .double-quote::before {
+            content: open-quote;
+            font-size: 3rem;
+            vertical-align: bottom;
+        }
+        .double-quote::after {
+            content: close-quote;
+            font-size: 3rem;
+            vertical-align: bottom;
+        }
 
     /* Media query */
-    @media screen and (min-width: 676px) {
+    @media screen and (min-width: 776px) {
         .part-card {
-            height: 300px;
+            flex-direction: row;
+        }
+        .part-content-container {
+            align-items: flex-start;
+        }
+        .partner-desc {
+            text-align: start;
+            font-size: 1.3rem;
+        }
+        .partner-image-profile {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background-position: center;
+            background-size: cover;
+            background-image: url(../img/testimonial1.jpg);
+        }
+        .double-quote::before {
+            font-size: 2.5rem;
+        }
+        .double-quote::after {
+            font-size: 2.5rem;
         }
     }
     @media screen and (min-width: 992px) {
