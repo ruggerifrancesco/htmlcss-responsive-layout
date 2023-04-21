@@ -369,6 +369,8 @@ img {
 }
 
 .part-card {
+    flex-direction: column;
+    align-items: center;
     height: 600px;
     width: 100%;
     border-radius: var(--comments-border-rd);
@@ -390,6 +392,13 @@ img {
         .partner-image-profile {
             background-image: url(../img/testimonial3.jpg);
         }
+    .partner-desc {
+        color: var(--color-white);
+    }
+    .partner-name {
+        text-transform: uppercase;
+        color: var(--color-white);
+    }
 
     /* Media query */
     @media screen and (min-width: 676px) {
