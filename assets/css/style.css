@@ -11,7 +11,7 @@
 /* Root Section */
 :root {
     /* General Color Scheme */
-    --color-grey: grey;
+    --color-grey: rgb(90, 88, 88);
     --color-white: white;
     --color-black: black;
 
@@ -51,7 +51,7 @@ h2 {
     font-size: 24px;
 }
 h3 {
-    font-size: 16px;
+    font-size: 1.8rem;
 }
 
 span, li, a {
@@ -72,6 +72,10 @@ img {
 
     .grid {
         display: grid;
+    }
+
+    .btn {
+     border: 1rem;   
     }
 
     /* Rule Applied for mobile first */
@@ -163,18 +167,43 @@ img {
     flex-direction: column;
     gap: 2rem;
 }
-    .hero-card-primary {
-        height: 700px;
-        width: 100%;
-        border-radius: var(--card-border-rd);
-        background-color: var(--color-lblue);
+
+.hero-card-primary {
+    flex-direction: column;
+    width: 100%;
+    border-radius: var(--card-border-rd);
+    background-color: var(--color-lblue);
+}
+    .card-content-wrapper {
+        padding: 3rem 2rem;
     }
-        .hero-image-wrapper {
-            align-items: flex-end;
-            object-fit: contain;
-            width: 75%;
-            margin: 0 auto;
+        .card-title {
+            color: var(--color-cyan-blue);
         }
+        .card-desc {
+            margin-top: 2rem;
+            color: var(--color-grey);
+            font-weight: 500;
+            line-height: 1.8rem;
+            font-size: 20px;
+        }
+        .btn-card {
+            margin-top: 2rem;
+            background-color: var(--color-cyan-blue);
+            width: 18rem;
+            color: var(--color-white);
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 0.2rem;
+            text-align: center;
+            border-radius: 2rem;
+            padding: 1rem 0;
+        }
+    .hero-image-wrapper {
+        object-fit: contain;
+        width: 75%;
+        margin: 0 auto;
+    }
 
     .hero-card {
         justify-content: center;
