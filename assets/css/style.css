@@ -184,6 +184,9 @@ img {
     .card-content-wrapper {
         padding: 3rem 2rem;
     }
+        .card-title-primary {
+            color: var(--color-cyan-blue);
+        }
         .card-title {
             color: var(--color-cyan-blue);
         }
@@ -252,20 +255,13 @@ img {
             padding-left: 2rem;
             width: 50%;
         }
+        .card-title {
+            font-size: 1.3rem;
+        }
     }
-    @media screen and (min-width: 976px) {
-        .hero-card-container {
-            gap: 1.5rem;
-        }
-        .hero-card-row {
-            flex-direction: row;
-            gap: 1.5rem;
-        }
-        .hero-card-primary {
-            width: calc((100% / 3 * 2) + 1.5rem);
-        }
-        .hero-card {
-            width: calc(100% / 3);
+    @media screen and (min-width: 800px) {
+        .card-title {
+            font-size: 1.8rem;
         }
     }
     @media screen and (min-width: 1200px) {
