@@ -274,11 +274,29 @@ img {
         }
         .hero-card-primary {
             width: calc((100% / 3 * 2) + 2rem);
-            height: 500px;
+            flex-direction: row;
+        }
+        .card-desc-primary {
+            line-height: 2.2rem;
+        }
+        .card-content-wrapper {
+            width: 60%;
+            padding: 3rem 4rem 0 2rem;
+        }
+        .hero-image-wrapper {
+            padding: 0;
+            width: 40%;
+            align-items: flex-end;
+        }
+        .hero-image-wrapper > img {
+            width: 80%;
         }
         .hero-card {
             width: calc(100% / 3);
-            height: 500px;
+        }
+        .btn-card {
+            width: 15rem;
+            padding: 0.8rem 0;
         }
     }
 /* ---- Main Content ---- */
