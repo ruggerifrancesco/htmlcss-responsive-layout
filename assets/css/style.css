@@ -74,10 +74,6 @@ img {
         display: grid;
     }
 
-    .btn {
-     border: 1rem;   
-    }
-
     /* Rule Applied for mobile first */
     .wrapper {
         margin: 0 auto;
@@ -125,9 +121,20 @@ img {
 
 .nav-list-container {
     display: none;
+    align-items: center;
+    gap: 2rem;
 }
     .nav-list {
         gap: 3rem;
+    }
+    .nav-list > li > a {
+        color: var(--color-white);
+    }
+    .btn-nav {
+        color: var(--color-black);
+        background-color: var(--color-white);
+        border-radius: 1rem;
+        padding: 0.5rem 1rem;
     }
 
 .hamburger-list > i {
