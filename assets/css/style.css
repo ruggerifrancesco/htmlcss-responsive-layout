@@ -483,11 +483,40 @@ img {
     color: var(--color-white);
 }
 .benef-card {
-    height: 550px;
+    flex-direction: column;
     width: 100%;
     border-radius: var(--card-border-rd);
     background-color: var(--color-white);
+    padding: 2.5rem;
 }
+    .benef-card-n {
+        color: var(--color-lilla);
+        font-size: 4rem;
+        font-weight: 800;
+    }
+    .benef-card-title {
+        margin-top: 2rem;
+        color: var(--color-lilla);
+    }
+    .benef-paragh {
+        margin-top: 2rem;
+        color: var(--color-grey);
+        font-weight: 400;
+        line-height: 2rem;
+        font-size: 1.2rem;
+    }
+    .btn-benef {
+        margin-top: 2rem;
+        background-color: var(--color-lilla);
+        width: 50%;
+        text-align: center;
+        border-radius: 2rem;
+        padding: 0.8rem 0;
+        color: var(--color-white);
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+
+    }
     /* Media Query */
     @media screen and (min-width: 576px) {
         .benef-wrapper {
