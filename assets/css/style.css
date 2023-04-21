@@ -380,27 +380,21 @@ img {
         width: 250px;
         height: 250px;
         border-radius: 50%;
-        background-position: center;
-        background-size: cover;
-        background-image: url(../img/testimonial1.jpg);
+        overflow: hidden;
     }
-        .part-card:nth-child(3)
-        .partner-image-profile {
-            background-image: url(../img/testimonial2.jpg);
-        }
-        .part-card:nth-child(4)
-        .partner-image-profile {
-            background-image: url(../img/testimonial3.jpg);
+        .partner-image-profile > img {
+            object-fit: cover;
+            height: 100%;
         }
 
     .part-content-container {
         flex-direction: column;
         align-items: center;
+        margin-top: 2rem;
     }
         .partner-desc {
             color: var(--color-white);
             text-align: center;
-            margin-top: 2rem;
             line-height: 2.5rem;
             font-size: 1.5rem;
         }
@@ -429,6 +423,7 @@ img {
         }
         .part-content-container {
             align-items: flex-start;
+            margin-left: 5rem;
         }
         .partner-desc {
             text-align: start;
@@ -438,9 +433,6 @@ img {
             width: 200px;
             height: 200px;
             border-radius: 50%;
-            background-position: center;
-            background-size: cover;
-            background-image: url(../img/testimonial1.jpg);
         }
         .double-quote::before {
             font-size: 2.5rem;
