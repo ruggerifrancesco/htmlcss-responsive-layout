@@ -354,7 +354,7 @@ img {
         }
         .benef-card {
             height: 500px;
-            width: calc(100% / 3 - 1.34rem);
+            width: calc((100% / 3) - 1.34rem);
         }
     }
 
