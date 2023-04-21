@@ -200,7 +200,6 @@ img {
             padding: 1rem 0;
         }
     .hero-image-wrapper {
-        object-fit: contain;
         width: 75%;
         margin: 0 auto;
     }
@@ -240,7 +239,26 @@ img {
         }
         .hero-card {
             width: calc(100% / 3);
-            height: 500px;
+        }
+        .hero-image-wrapper {
+            margin: 0;
+            padding-left: 2rem;
+            width: 50%;
+        }
+    }
+    @media screen and (min-width: 976px) {
+        .hero-card-container {
+            gap: 1.5rem;
+        }
+        .hero-card-row {
+            flex-direction: row;
+            gap: 1.5rem;
+        }
+        .hero-card-primary {
+            width: calc((100% / 3 * 2) + 1.5rem);
+        }
+        .hero-card {
+            width: calc(100% / 3);
         }
     }
     @media screen and (min-width: 1200px) {
