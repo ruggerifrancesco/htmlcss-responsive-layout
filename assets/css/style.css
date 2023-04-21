@@ -48,7 +48,7 @@ h1 {
     font-size: 36px;
 }
 h2 {
-    font-size: 24px;
+    font-size: 2.4rem;
 }
 h3 {
     font-size: 1.8rem;
@@ -362,10 +362,22 @@ img {
 }
 
 .partner-text {
-    justify-content: center;
-    height: 400px;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
+    text-align: center;
 }
+    .category-indicator {
+        text-transform: uppercase;
+    }
+    .category-title {
+        margin-top: 2rem;
+        color: var(--color-lilla);
+    }
+    .category-introduction {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+    }
 
 .part-card {
     flex-direction: column;
