@@ -420,14 +420,17 @@ img {
     @media screen and (min-width: 776px) {
         .part-card {
             flex-direction: row;
+            gap: 2rem;
+            align-items: center;
         }
         .part-content-container {
             align-items: flex-start;
-            margin-left: 5rem;
+            width: 60%;
+            margin-top: 0;
         }
         .partner-desc {
             text-align: start;
-            font-size: 1.3rem;
+            font-size: 1.2rem;
         }
         .partner-image-profile {
             width: 200px;
