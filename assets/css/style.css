@@ -324,13 +324,45 @@ img {
 }
 
 .app-dev {
-    justify-content: center;
-    align-items: center;
-    height: 600px;
+    flex-direction: column;
     width: 100%;
     border-radius: var(--comments-border-rd);
     background-color: var(--color-white);
+    padding: 3rem 0;
 }
+    .app-dev-image-container {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .app-dev-title {
+        margin-top: 2rem;
+    }
+    .app-dev-paragh {
+        margin-top: 2rem;
+        line-height: 2.5rem;
+        font-size: 1.5rem; 
+        font-style: italic;
+    }
+    .app-dev-content {
+        padding: 0 1.6rem;
+        text-align: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .more-about-dev {
+        background-color: var(--color-lilla);
+        color: var(--color-black);
+        font-size: 2rem;
+        margin-top: 3rem;
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+        .more-about-dev {
+            justify-content: center;
+            align-items: center;
+        }
+
     /* Media Query Section */
     @media screen and (min-width: 676px) {
         .app-dev {
@@ -487,7 +519,7 @@ img {
     width: 100%;
     border-radius: var(--card-border-rd);
     background-color: var(--color-white);
-    padding: 2.5rem;
+    padding: 2rem;
 }
     .benef-card-n {
         color: var(--color-lilla);
