@@ -320,9 +320,6 @@ img {
     width: 100%;
     flex-direction: column;
 }
-    .stpl-image-container {
-        
-    }
     .stpl-content {
         color: var(--color-white);
     }
