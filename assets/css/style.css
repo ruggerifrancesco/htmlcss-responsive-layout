@@ -317,11 +317,23 @@ img {
 }
 
 .strategic-planning {
-    justify-content: center;
-    align-items: center;
-    height: 600px;
     width: 100%;
+    flex-direction: column;
 }
+    .stpl-image-container {
+        
+    }
+    .stpl-content {
+        color: var(--color-white);
+    }
+        .stpl-title {
+            margin-top: 2rem;
+        }
+        .stpl-paragh {
+            margin-top: 2rem; 
+            line-height: 1.5rem;
+            font-size: 1.2rem;
+        }
 
 .app-dev {
     flex-direction: column;
