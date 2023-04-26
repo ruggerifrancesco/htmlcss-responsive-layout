@@ -783,7 +783,26 @@ img {
 /* Footer */
 .footer {
     background-color: var(--footer-bottom-color);
-    height: 200px;
     justify-content: center;
     align-items: center;
 }
+
+.footer-wrapper {
+    text-align: center;
+    color: var(--color-white);
+    padding: 3rem 0;
+}   
+    .footer-desc {
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+    .footer-links {
+        margin-top: 5rem;
+        font-size: 1.25rem;
+        font-weight: 400;
+    }
+        .footer-links > a {
+            display: inline;
+            color: var(--color-lilla);
+            text-decoration: underline;
+        }
