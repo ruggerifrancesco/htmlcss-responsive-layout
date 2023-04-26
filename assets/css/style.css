@@ -46,15 +46,12 @@ body {
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 3.5rem;
 }
 h2 {
     font-size: 2.4rem;
 }
 h3 {
-    font-size: 1.8rem;
-}
-h4 {
     font-size: 1.8rem;
 }
 
@@ -594,36 +591,65 @@ img {
 
 /* About Us Section */
 .about-wrapper {
-    padding: 4rem 0;
+    padding: 6rem 0;
+    flex-direction: column;
 }
 
 .about-text-container {
     flex-direction: column;
-    gap: 1.5rem;
+    gap: 5rem;
 }
     .about-title {
-        justify-content: center;
-        align-items: center;
+        color: var(--color-lilla);
         width: 100%;
     }
     .about-paragraph {
-        justify-content: center;
-        align-items: center;
         width: 100%;
+        font-size: 1.4rem;
+        line-height: 3rem;
+        font-weight: 400;
     }
-    .about-paragraph-2 {
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-    }
+
 
 .about-referral {
     justify-content: center;
     align-items: center;
     height: 480px;
     width: 100%;
-    margin-top: 2rem;
+    margin-top: 4rem;
 }
+    .referral-image-profile {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        background-image: url(../img/about.jpg);
+        background-position: center;
+        background-size: cover;
+        position: relative;
+    }
+        .quotes-dec {
+            color: var(--color-lilla);
+            position: absolute;
+            top: 0;
+            right: 0;
+            font-size: 4.5rem;
+        }
+    .referral-title {
+        color: var(--color-lilla);
+        line-height: 2.5rem;
+        font-size: 2.2rem;
+        margin-top: 2rem;
+    }
+    .referral-btn {
+        background-color: var(--color-lilla); 
+        color: var(--color-white);
+        width: 60%;
+        text-align: center;
+        border-radius: 2rem;
+        padding: 0.5rem 0;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
 
 /* Getting Started Section  */
 .getting-started-section {
