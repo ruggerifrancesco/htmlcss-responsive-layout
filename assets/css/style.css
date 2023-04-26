@@ -380,13 +380,39 @@ img {
             align-items: flex-end;
             flex-direction: row;
             padding: 8rem 12rem 4rem;
-            gap: 2rem;
+            justify-content: space-between;
         }
         .strategic-planning {
             width: 50%;
         }
         .app-dev {
-            width: 50%; 
+            width: 45%; 
+            padding: 3rem 1.5rem;
+        }
+        .app-dev-image-container {
+            width: 60%;
+        }
+        .app-dev-paragh {
+            line-height: 2rem;
+            font-size: 1.2rem; 
+            margin-top: 1rem;
+        }
+        .more-about-dev {
+            width: 60px;
+            height: 60px; 
+            margin-top: 2rem;
+            font-size: 1.6rem;
+        }
+        .app-dev-title {
+            margin-top: 1rem;
+        }
+        .stpl-title {
+            margin-top: 10rem;
+        }
+        .stpl-paragh {
+            margin-top: 3rem; 
+            line-height: 1.8rem;
+            font-size: 1.2rem;
         }
     }
 
