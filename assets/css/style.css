@@ -763,6 +763,7 @@ img {
 
 .get-start-text {
     width: 100%;
+    align-items: center;
 }
 
 .get-start-btn {
@@ -777,6 +778,20 @@ img {
     padding: 1.3rem 0;
     font-weight: 500;
 }
+
+    /* Media Query Section */
+    @media screen and (min-width: 776px) {
+        .start-category-introduction {
+            width: 75%;
+            font-size: 1.2rem;
+            line-height: 1.6rem;
+        }
+        .get-start-btn {
+            width: 40%;
+            padding: 1.6rem 0;
+            border-radius: 2.5rem;
+        }
+    }
 
 /* ---- Footer Content ---- */
 
@@ -806,3 +821,15 @@ img {
             color: var(--color-lilla);
             text-decoration: underline;
         }
+
+    /* Media Query Section */
+    @media screen and (min-width: 776px) {
+        .footer-wrapper {
+            width: 60%;
+        }
+        .footer-desc,
+        .footer-links {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
