@@ -5,7 +5,7 @@
     box-sizing: border-box;
 
     /* See everything */
-    outline: 1px solid red;
+    /* outline: 1px solid red; */
 }
 
 /* Root Section */
@@ -792,6 +792,14 @@ img {
             border-radius: 2.5rem;
         }
     }
+    @media screen and (min-width: 1200px) {
+        .start-category-introduction {
+            width: 40%;
+        }
+        .get-start-btn {
+            width: 20%;
+        }
+    }
 
 /* ---- Footer Content ---- */
 
@@ -826,6 +834,16 @@ img {
     @media screen and (min-width: 776px) {
         .footer-wrapper {
             width: 60%;
+        }
+        .footer-desc,
+        .footer-links {
+            font-size: 1rem;
+            font-weight: 400;
+        }
+    }
+    @media screen and (min-width: 1200px) {
+        .footer-wrapper {
+            width: 30%;
         }
         .footer-desc,
         .footer-links {
