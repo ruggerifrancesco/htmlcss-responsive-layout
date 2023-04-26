@@ -17,6 +17,7 @@
 
     /* Color Scheme */
     --color-lilla: #9792e4;
+    --color-l-lilla: #d5d4f4;
     --color-lblue: #b5ddff;
     --color-cyan-blue: #0084fd;
 
@@ -727,19 +728,54 @@ img {
     gap: 2rem;
     padding: 4rem 0;
 }
+    .get-start-text {
+        flex-direction: column;
+        text-align: center;
+    }
+        .get-start-text > .category-indicator {
+            color: var(--color-l-lilla);
+            letter-spacing: 0.3rem;
+        }
+    .start-category-title {
+        color: var(--color-white);
+        margin-top: 2rem;
+    }
+    .start-special-title{
+        color: var(--free-sec-yellow);
+        margin-top: 3rem;
+        font-size: 5rem;
+        font-weight: 700;
+    }
+    .start-category-introduction {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        color: var(--color-white);
+    }
+    .copyright {
+        color: var(--color-white);
+        font-size: 1rem;
+    }
+        .privacy-link {
+            display: inline;
+            color: var(--color-white);
+            text-decoration: underline;
+        }
 
 .get-start-text {
-    justify-content: center;
-    align-items: center;
-    height: 400px;
     width: 100%;
 }
 
 .get-start-btn {
-    width: 80%;
+    width: 70%;
     justify-content: center;
     align-items: center;
     border-radius: 2rem;
+    background-color: var(--color-white);
+    color: var(--color-lilla);
+    font-size: 1.2rem;
+    letter-spacing: 0.2rem;
+    padding: 1.3rem 0;
+    font-weight: 500;
 }
 
 /* ---- Footer Content ---- */
